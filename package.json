@@ -1,5 +1,5 @@
 {
-  "name": "Millie",
+  "name": "Takashi",
   "version": "1.1.2",
   "description": "WhatsApp Bot",
   "main": "index.js",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neeraj-x0/Millie.git"
+    "url": "git+https://github.com/nimshadnimzz/Millie.git"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Neeraj",
+  "author": "Nimxhad",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Neeraj-x0/Millie/issues"
+    "url": "https://github.com/nimshadnimzz/Millie/issues"
   },
-  "homepage": "https://github.com/Neeraj-x0/Millie",
+  "homepage": "https://github.com/nimshadnimzz/Millie",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "@bochilteam/scraper": "0.0.81",
