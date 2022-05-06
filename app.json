@@ -1,8 +1,13 @@
 {
-"name": "Takashi",
+
+"name": "Millie",
+
   "description": "Lightweight WhatsApp Bot",
+
   "repository": "https://github.com/Neeraj-x0/Millie",
-  "logo": "https://i.imgur.com/sz65S8J.jpeg",
+
+  "logo": "https://i.imgur.com/Pf1Wynm.png",
+
   "keywords": ["bot", "whatsapp", "whatsapp-bot"],
 
     "buildpacks": [
@@ -26,4 +31,13 @@
         }
 
     ]
+
 }
+
+
+
+
+
+
+
+
