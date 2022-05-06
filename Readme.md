@@ -36,8 +36,8 @@
 
 ### DEPLOY
 
-  Copy this link and paste it on your browser Change Neeraj-X0 to your github username <br>
-`https://heroku.com/deploy?template=https://github.com/Neeraj-x0/Millie`  
+  Copy this link and paste it on your browser Change nimshadnimzz to your github username <br>
+`https://heroku.com/deploy?template=https://github.com/nimshadnimzz/Millie`  
 
 
 
