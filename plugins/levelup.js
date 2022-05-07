@@ -28,7 +28,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     if (before !== user.level) {
       let rank = 'https://telegra.ph/file/fd4230902e75d397d8667.jpg'
         {
-          await conn.sendButtonImg(m.chat, await (await fetch(rank)).buffer(), `${name} Level Up!\n_${before}_ -> ${user.level}`.trim(), '© Eva', 'AUTO LEVEL UP', `${usedPrefix}on autolevelup`, m)
+          await conn.sendButtonImg(m.chat, await (await fetch(rank)).buffer(), `${name} Level Up!\n_${before}_ -> ${user.level}`.trim(), '© Takashi', 'AUTO LEVEL UP', `${usedPrefix}on autolevelup`, m)
         }
     }
   }
