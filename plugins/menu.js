@@ -14,8 +14,8 @@ const defaultMenu = {
   body: '├ %cmd',
   footer: '└────\n',
   after: `
-   ᴹᴵᴸᴸᴵᴱ
-   ᴹᴼᴰᵁᴸᴬᴿ ᵂᴴᴬᵀᔆᴬᴾᴾ ᴮᴼᵀ
+   𝗧𝗔𝗞𝗔𝗦𝗛𝗜
+   𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -349,7 +349,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/mills.jpeg")).buffer(), text.trim(), '© ᴍɪʟʟɪᴇ ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://raw.githubusercontent.com/nimshadnimzz/Millie/main/Millie/mills.jpeg")).buffer(), text.trim(), '© ᴛᴀᴋᴀsʜɪ ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
